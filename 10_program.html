@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Forms |</title>
+</head>
+
+<body>
+    <!-- <form action="" method="get"> -->
+    <form action="/signup" method="post" target="_blank">
+        <fieldset>
+            <legend>User Details</legend>
+
+
+            <!-- Enter Your Name -->
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" name="UserNAme" value="Krishan" readonly disabled>
+            <br>
+            <label for="address">Enter Your Adress</label>
+            <textarea id="address" name="" id="" cols="30" rows="1" name="userAddress" autofocus></textarea>
+            <br>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" name="userDOB">
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="userpassword">
+            <br>
+            Gender:
+            <br>
+            <label for="gen">Male</label>
+            <input type="radio" id="gen" name="usergender">
+            <label for="gen">Female</label>
+            <input type="radio" id="gen" name="usergender">
+            <label for="gen">Others</label>
+            <input type="radio" id="gen" name="usergender">
+            <br>
+            <label for="Avengers">Avengers</label>
+            <input type="checkbox" name="Avengers" id="Avengers">
+            <label for="Avengers1">Avengers1</label>
+            <input type="checkbox" name="Avengers1" id="Avengers1">
+            <label for="Avengers2">Avengers2</label>
+            <input type="checkbox" name="Avengers2" id="Avengers2">
+            <br>
+            <input type="number" min="0" max="10">
+            <input type="submit">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
